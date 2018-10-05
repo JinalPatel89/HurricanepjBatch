@@ -17,7 +17,7 @@ public class InformationPage {
 	{
 		String text = driver.findElement(By.className("panel-title")).getText();
 		System.out.println("Text " + text);
-		System.out.println("Name:" + name);
+		System.out.println("Name::::" + name);
 		boolean result = text.contains(name);
 		return result;
 	
