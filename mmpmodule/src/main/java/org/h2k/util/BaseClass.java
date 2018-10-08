@@ -34,7 +34,7 @@ public class BaseClass {
 		{
 			driver = new ChromeDriver();
 		}
-		else
+		else if(browserType.equals("FF"))
 		{
 			System.setProperty("webdriver.gecko.driver","geckodriver.exe");
 			driver = new FirefoxDriver();
